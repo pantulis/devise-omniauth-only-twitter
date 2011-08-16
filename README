@@ -3,6 +3,8 @@
 This is an example project on using Devise with Omniauth to authenticate via
 Twitter, not allowing any other authentication scheme. 
 
+This should work with Ruby 1.9.2 & Rails 3.0.9
+
 TODO: Write some tests
 
 == References 
