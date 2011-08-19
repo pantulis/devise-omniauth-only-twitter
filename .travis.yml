@@ -1,6 +1,4 @@
 rvm: 1.9.2
-gemfile: gemfiles/Gemfile.ce
+gemfile: gemfiles/Gemfile.ci
 before_script:
   - "mysql -e 'create database deviseonlytwitter_test;' >/dev/null"
-script:
-  - "bundle install --gemfile gemfiles/Gemfile.ci --path vendor/bundle && bundle exec rake db:drop db:create db:migrate test && bundle exec rake"
