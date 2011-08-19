@@ -1,3 +1,4 @@
 rvm: 1.9.2
-gemfile: gemfiles/Gemfile.ci
-
+gemfile: gemfiles/Gemfile.ce
+before_script:
+  - "mysql -e 'create database deviseonlytwitter_test;' >/dev/null"

@@ -24,8 +24,7 @@ test:
   reconnect: false
   database: deviseonlytwitter_test
   pool: 5
-  username: root
-  password:
+  username:
   socket: /tmp/mysql.sock
 
 production:
