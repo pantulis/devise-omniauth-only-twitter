@@ -25,7 +25,6 @@ test:
   database: deviseonlytwitter_test
   pool: 5
   username:
-  socket: /tmp/mysql.sock
 
 production:
   adapter: mysql2
